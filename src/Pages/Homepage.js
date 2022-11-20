@@ -40,7 +40,7 @@ const Homepage = () => {
             />
           </form>
         </div>
-        
+        {/* testing */}
         {filteredCoins.slice((page - 1) * 10, (page - 1) * 10 + 10).map(coin => {
           return (
             
